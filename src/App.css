@@ -44,3 +44,64 @@
 .celebimage{
   width: 100px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body{
+  background-image: url('/src/assets/oscars.jpg');
+  background-size: 1300px;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.title{
+  font-family: 'Sigmar', cursive;
+  color: rgb(250, 238, 238);
+  opacity: 0.5;
+  margin: 0;
+}
+
+.title2{
+  font-family: 'Sigmar', cursive;
+  color: rgb(250, 238, 238);
+  margin: 0;
+}
+
+.table{
+  font-family: 'Sigmar', cursive;
+  background-color: rgba(240, 248, 255, 0.48);
+  border-radius: 10px;
+  border: 1px solid;
+  width: 1000px;
+}
+
+.table2{
+  font-family: 'Sigmar', cursive;
+  color: #000000;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.buttons{
+  font-family: 'Sigmar', cursive;
+  background-color: rgb(112, 141, 166);
+  margin-left: 60px;
+  margin-right: 90px;
+  margin-top: 30px;
+  justify-content: flex-start;
+  align-content: center;
+  border-radius: 100px;
+}
+
+.deletebtn{
+  font-family: 'Sigmar', cursive;
+  background-color: rgb(112, 141, 166);
+  background-image: url("./assets/delete.png");
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  width: 30px;
+  height: 40px;
+  margin-top: 60px;
+}
